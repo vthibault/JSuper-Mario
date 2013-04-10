@@ -4,10 +4,10 @@ _"Help Mario to rescue the (nonexistent) Princess Toadstool by running around th
 Sprite by @jseidelin."_
 
 Read all about it:  
-[http://blog.robrowser.com/jsuper-mario-1k-my-js1k-spring-entry.html)
+http://blog.robrowser.com/jsuper-mario-1k-my-js1k-spring-entry.html
 
 See it:  
-[http://js1k.com/2013-spring/demo/1365)
+http://js1k.com/2013-spring/demo/1365
 
 
 
