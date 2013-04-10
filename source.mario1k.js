@@ -1,4 +1,4 @@
-// JSCrunch Variable, needed to run the entry, but remove them before compress it.
+// JSCrush Variable, needed to run the entry, but remove them before compress it.
 Y = 0;
 $ = "";
 
@@ -42,7 +42,7 @@ setInterval(
 +		"for(j=6;--j;)"
 
 			// Now some Maths to set the cells on ground based on some random
-			// Optimized to have the token "j&&(i-5+x/13)%" (will be removed by jsCrunch).
+			// Optimized to have the token "j&&(i-5+x/13)%" (will be removed by jsCrush).
 +			"if(2>j&&(i-5+x/13)%20>3||5>j&&(i-5+x/13)%57>35+j&&(i-5+x/13)%53<50-j||4<j&&(i-5+x/13)%26>25)"
 
 				// Draw sprite element:
@@ -80,11 +80,11 @@ setInterval(
 +	"a.translate(130,y+=s);"
 
 	// Scale mario to the direction he looks at.
-	// $ is a JSCrunch variable string, |1 is used because I don't set $ to -1 or 1 at the start (so ""|1 == 1).
+	// $ is a JSCrush variable string, |1 is used because I don't set $ to -1 or 1 at the start (so ""|1 == 1).
 +	"a.scale($|1,1);"
 
 	// Draw Mario sprite and change it's animation base on the time (depend if it jump or not)
-	// (I use here Y variable (int) from JScrunch as a tick var to save some bytes (don't need to set another variable - save 2 bytes).
+	// (I use here Y variable (int) from JScrush as a tick var to save some bytes (don't need to set another variable - save 2 bytes).
 +	"a.restore(a.drawImage(m,13*(s?4:r?++Y%3:0),0,13,16,-6,0,13,16))"
 ,30);
 
